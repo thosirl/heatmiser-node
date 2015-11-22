@@ -101,13 +101,13 @@ Ideally the settings syntax would be expanded to include stat ID and then allow 
 
 This is the same as the Wifi configuration and syntax, with the exception of passing the thermostat netwrok address ID on the write_device call.
 
-var dcb1 = {
-  heating: {
-    target: 21
-  }
-}
+	var dcb1 = {
+	  heating: {
+	    target: 21
+	  }
+	}
 
-hm.write_device(7,dcb1);
+	hm.write_device(7,dcb1);
 
 
 
